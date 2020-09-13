@@ -4,6 +4,14 @@ import 'package:marque/widgets/input_field.dart';
 
 import 'home_screen.dart';
 
+//
+//
+// Login para teste
+// LOGIN admin@admin.com
+// SENHA 123456
+//
+//
+
 class LoginScreen extends StatefulWidget {
   @override
   _LoginScreenState createState() => _LoginScreenState();
@@ -71,10 +79,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[
-                        Icon(
-                          Icons.alarm_add,
-                          color: Colors.deepPurple,
-                          size: 130,
+                        Image.asset(
+                          "images/Marque-logo.png",
+                          height: 210,
                         ),
                         InputField(
                           icon: Icons.person_outline,

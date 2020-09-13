@@ -28,7 +28,7 @@ class LoginBloc extends BlocBase with LoginValidators{
   Function(String) get changePassword => _passwordController.sink.add;
 
   LoginBloc(){
-
+    FirebaseAuth.instance.signOut();
     _streamSubscription = FirebaseAuth.instance.onAuthStateChanged.listen((user) async {
       if(user != null) { 
         if(await verifyPrivileges(user)) {
