@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1005986382472",
+    "firebase_url": "https://marque-71772.firebaseio.com",
+    "project_id": "marque-71772",
+    "storage_bucket": "marque-71772.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005986382472:android:65c8fcc69a813ef09c553d",
+        "android_client_info": {
+          "package_name": "com.example.marque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005986382472-9cs5ot7qk7srmj1j5ak4gk2bd4qfd7a7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe-c4GgHDgHumWK9kchekHpXbWWdAGggc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005986382472-9cs5ot7qk7srmj1j5ak4gk2bd4qfd7a7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
